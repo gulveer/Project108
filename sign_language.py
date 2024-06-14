@@ -8,7 +8,6 @@ cap = cv2.VideoCapture(0)
 
 finger_tips =[8, 12, 16, 20]
 thumb_tip= 4
-finger_fold_status = []
 
 while True:
     ret,img = cap.read()
